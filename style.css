@@ -97,7 +97,7 @@ header a {
 }
 
 #containerSec{
-    background-image: url("\\images\\Bg.jpg");
+    background-image: url("images\\Bg.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     height: 40em;
@@ -314,15 +314,15 @@ margin-left: 7%;
 }
 
 .project1bg{
-    background-image: url("\\images\\AR.webp");
+    background-image: url("images\\AR.webp");
 }
 
 .project2bg{
-    background-image: url("\\images\\OperatingSystem.webp");
+    background-image: url("images\\OperatingSystem.webp");
 }
 
 .project3bg{
-    background-image: url("\\images\\robot.avif");
+    background-image: url("images\\robot.avif");
 }
 
 
