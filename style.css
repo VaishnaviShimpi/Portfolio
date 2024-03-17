@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fffafb;
+
+    font-family: "Quicksand" "IBM Plex Sans", sans-serif;
+}
+
+#containerSec img:hover, #skillsSec img:hover{
+    opacity: 0.7; 
+    transform: scale(1.5); 
+    transition: all 0.3s ease; 
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Logo{
+    margin-top: 2%;
+}
+.Logo a{
+    padding: 9px 19px;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.HeaderTags{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    top: 0;
+}
+
+
+
+h1,h2,h3,pre{
+    color: #ffffff;
+}
+section{
+    margin-bottom: 15%;
+}
+
+header a {
+    box-sizing: border-box;
+    font-size: 1.5em;
+    padding: 9px 19px;
+    text-decoration: none;
+    position: relative;
+    color: #282828;
+    border: 1px solid transparent;
+    transition: color 0.3s, background-color 0.3s, border 0.3s;
+}
+
+.HeaderTags a:hover {
+    color: #fff;
+    background-color: #468189;
+    border-color: #468189;
+    border-radius: 10px; 
+    opacity: 0.8;
+}
+
+.CV{
+    margin-top: 6%;
+}
+#downloadResumeLink{
+    margin-left:40%;
+    margin-top: 70%;
+    text-decoration: none;
+    color: #f8f7ff;
+    box-sizing: border-box;
+    border: 1% solid transparent;
+    background-color: #468189;
+    border-radius: 10px; 
+    padding: 1% 2%;
+
+}
+
+.container a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.frame1{
+    padding-left: 15%;
+}
+
+.SocialMediaLinks{
+    display: inline;
+}
+
+#containerSec{
+    background-image: url("\\images\\Bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 40em;
+}
+#hithere{
+    font-size: 0.6em;
+    font-weight: 500;
+    color: #2b2c28;
+}
+
+    #Name{
+    font-size: 3.5em;
+    font-family:  "Raleway" "Quicksand" , sans-serif;
+    font-weight: 100;
+    color:#2b2c28;
+    padding-top: 10%;
+}
+#Subname{
+    font-size: 3em;
+    padding-top: 1%;
+    font-family: "Quicksand" "Raleway", sans-serif;
+    font-weight: 200;
+    color: #336a81;
+    padding-bottom: 3%;
+}
+
+
+#about{
+    margin-left: 5%;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.3em;
+    color: #242522;
+}
+
+#aboutmeSec{
+    height: 40em;
+}
+
+#aboutmeSec h2{
+    font-size: 2.5em;
+    color: #336a81;
+    font-weight: 100;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-left: 40%;
+}
+
+.aboutmemain{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10%;
+    margin-left: 10%;
+    
+}
+
+.aboutmeleft img{
+    width: 60%;
+    border: 2px solid white;
+    border-radius: 25%;
+}
+#MyImage{
+    margin-top: 10%;
+}
+
+#MyImage:hover{
+    opacity: 0.5; 
+    transform: scale(1.1); 
+    transition: all 0.3s ease; 
+}
+.aboutmeleft, .aboutme{
+    flex: 1;
+}
+
+.aboutme{
+    display: flex;
+    text-align:start;
+    flex-direction: column;
+}
+
+.about, #Educationtable{
+    margin-top: 70px;
+}
+
+#Educationtable{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 150px;
+}
+
+.ProfileHeading{
+text-align: center;
+display: flex;
+margin-bottom: 5%;
+margin-right: 10%;
+font-family: "Quicksand";
+justify-content: space-around;
+font-size: 1.2em;
+color:#f8f7ff;
+}
+
+.ProfileHeading button{
+    border: none;
+    width: 50%;
+    background-color:#dfdfdf;
+    font-size: 1em;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0.5%;
+    color:black;
+}
+
+#ProfileBtn{
+    background-color: #336a81;
+}
+.Educationtable{
+    margin-left: 7%;
+}
+.SkillInfo, .profileInfo{
+    display: none;
+}
+
+.profileInfoo div{ 
+    display: flex;
+    font-family: "Quicksand";
+    font-size: 1.2em;
+    margin-bottom: 2%;
+    justify-content: start;
+   
+}
+.profileInfoo h4{
+    flex: 1;
+    color: #26565c;
+}
+.profileInfoo p{
+    flex: 2;
+}
+
+.skills h2{
+    margin-top: 2%;
+    margin-bottom: 50px;
+    margin-left: 45%;
+    font-size: 2.5em;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #336a81;
+    font-weight: 100;
+}
+
+.skillContainer{
+display: flex;
+justify-content: space-around;
+margin-right: 7%;
+margin-left: 7%;
+}
+
+
+.skill1, .skill2, .skill3, .skill4{
+    display: flex;
+    flex-direction: column;
+    background-color: #71c4cf;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 2px #555555 ;
+    border-radius: 25%;
+    margin-top: 3%;
+    padding-top: 3%;
+    width: 20%;
+
+}
+
+#skillhead1, #skillhead2, #skillhead3, #skillhead4{
+    font-size: 20px;
+    color:#3a3c35 ;
+    font-family: "Quicksand";
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.skillContainer h3:hover{
+    opacity: 0.7; 
+    transform: scale(1.5); 
+    transition: all 0.3s ease; 
+}
+
+.projectssection{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.Projects h2{
+    margin-top: 2%;
+    padding-top: 2%;
+    margin-left: 43%;
+    margin-bottom: 2%;
+    font-size: 2.5em;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #336a81;
+    font-weight: 100;
+}
+
+.project1bg, .project2bg, .project3bg{
+    margin-top: 3%;
+    width: 30%;
+    height: 400px;
+    margin-bottom: 7%;
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+}
+
+.project1bg{
+    background-image: url("\\images\\AR.webp");
+}
+
+.project2bg{
+    background-image: url("\\images\\OperatingSystem.webp");
+}
+
+.project3bg{
+    background-image: url("\\images\\robot.avif");
+}
+
+
+.project1, .project2, .project3{
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 5%;
+    height: 300px;
+    font-family: "Quicksand";
+    padding-top: 15%;
+    padding: 5%;
+    background-color: #282828;
+    opacity: 0.5;
+    color: #ffffff;
+    text-align: justify;
+}
+
+#project1head, #project2head, #project3head{
+    font-size: 17px;
+    /* color:rgb(31, 31, 31); */
+    color: #ffffff;
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.Achievements h2{
+    margin-top: 2%;
+    margin-bottom: 50px;
+    margin-left: 40%;
+    font-size: 2.5em;
+    color: #336a81;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: 100;
+}
+
+.achiveebox{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.achieve1, .achieve2,.achieve3, .achieve4{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3%;
+    font-family: "Quicksand";
+    font-size: 0.7em;
+    text-align: center;
+    border-radius: 25%;
+}
+
+.changeColor{
+    background-color: #42a8b5;
+    color: #f8f7ff;
+}
+
+
+footer {
+    background-color: #468189; 
+    color: white;  
+    padding: 5px 0;
+    text-align: center;
+}
+
+.footerDiv {
+    display: flex;
+    background-color: #468189; 
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0px;
+    flex-wrap: wrap;
+}
+
+.contactInfo, .copyrightInfo {
+    flex: 1;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.contactInfo h3, .copyrightInfo p {
+    margin-bottom: 10px;
+}
+
+
